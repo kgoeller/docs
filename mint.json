@@ -54,10 +54,17 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "development",
+        "quick-start-guide/getting-started"
       ]
     },
     {
+      "group": "Getting Started",
+      "pages": [
+        "quick-start-guide/getting-started",
+        "quick-start-guide/key-concepts-terms",
+      ]
+    },{
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
