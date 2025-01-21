@@ -1,0 +1,62 @@
+## Alerts
+
+Actionabl alerts users whenever a process needs human intervention. This happens in two cases:
+
+* **A step in the process that cannot (or should not) be automated**. For example, one of your vendors may require payment using a non-standard method such as a physical check, or a printing process might need an expert to review and sign off on a proof. This also includes quality checks and review steps.
+
+* **An error in an automated step**. For example, automation reconciles a vendor’s invoice against your purchase order and applies specific business rules; when the invoices fails reconciliation, your invoice manager needs to review and investigate before payment can proceed. This case also covers when something goes wrong, such as Actionabl not getting a response from an integrated system or encountering a missing document in a task step.
+
+## Users
+
+### User Types
+
+The Actionabl system has two user classifications: Business and Technical. 
+
+* **Business Users** handle tasks such as quality assurance, offline process steps, and issues related to the “content” of your business process. They are generally not in charge of managing a function or technical component of the system.
+
+<Info>
+  Business User Examples:  Accounts receivable associates, production coordinators, customer support representatives, sales team, and quality assurance specialists.
+</Info>
+
+* **Technical Users** monitor the operation of the processes and the system itself and respond to errors that indicate something may not work correctly. For example, they resolve error codes or investigate the lack of a success response from an API call. Technical users may also take a proactive role in configuring parts of the workflow or user notifications. 
+
+<Info>
+  Technical User Examples:  Process managers, system engineers, manufacturing plant managers, and system administrators.
+</Info>
+
+### User Groups
+
+When your administrator sets up your login, they assign it to one or more “groups” in the system. Your group assignment sets the boundaries for what you see by default and what you can access within the system.
+
+Your group helps you avoid noise associated with tasks that don’t relate to your role. For example, if you are in the Accounting group, you won’t see tasks or alerts relating to manufacturing processes. 
+
+## Dashboards
+
+There are two main user dashboards within the Actionabl platform:  **Task Master** and **Controller**. There is also an **Admin** dashboard available only to admin-level users; its use is covered in the System Administration guide.
+
+### Task Master
+
+The Task Master dashboard provides its users with a clear focus on the tasks flowing through the workflow. It alerts users to any action that is needed to resolve an error or complete an offline business process.
+
+Task Master is organized into modules for each type of task (user, error, etc.) and has robust search and filtering capabilities. It also has the “My Tasks” module, where a user can access all tasks that are assigned to them. 
+
+<Check>
+  ***User Types:***  Business and Technical Users
+</Check>
+
+<Card title="Learn More" icon="bolt">
+  The Task Master dashboard and its functionality is covered in detail in the Business User Guide
+</Card>
+
+### Controller
+
+The Controller dashboard manages workflow elements such as scheduling and task configuration. It also contains reporting, analytics, and a module for accessing and resolving Error Reports. Like Task Master, it offers robust searching and filtering.
+
+<Check>
+  ***User Types:*** Technical Users
+</Check>
+
+<Card title="Learn More" icon="bolt">
+  The Controller dashboard and its functionality is covered in detail in the&#x20;
+  Technical User Guide 
+</Card>
